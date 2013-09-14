@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MP1</title>
+    <link type="text/css" rel="stylesheet" href="css/mp1.css" />
+
+  </head>
+
+  <body onload="main()">
+    <h1>MP1 Dancing I</h1>
+
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports the "canvas"
+    </canvas>
+    <div style="clear:both;">
+    <audio class="hideIfNoApi" controls id="player" src="http://ianreah.apphb.com/sounds/movement%20proposition.mp3"> </audio>
+    </div>
+
+    <p>
+      Keys:<br> 
+      Right Arrow = Show Mesh<br>
+      Left Arrow = Show Regular Shape<br>
+      Play Button = Scale the I to the Music
+    </p>
+
+
+    <script src="js/webgl-utils.js"></script>
+    <script src="js/webgl-debug.js"></script>
+    <script src="js/cuon-utils.js"></script>
+    <script src="js/cuon-matrix.js"></script>
+    <script src="js/dancingI.js"></script>
+  </body>
+</html>
